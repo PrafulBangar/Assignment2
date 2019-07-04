@@ -23,7 +23,7 @@ public class Update
             System.out.println("Enter new user age =");
             int newage=sc.nextInt();
 
-            String querry="update user set name='"+newname+"',age='"+newage+"' where id=='" +newid+ "')";
+            String querry=("update user set name='"+newname+"',age='"+newage+"' where id='" +newid+ "')";
             int x=st.executeUpdate(querry);
 
             if(x>0)
