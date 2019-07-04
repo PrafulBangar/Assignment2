@@ -19,10 +19,10 @@ do {
 
      ch = sc.nextInt();
 
-    Insert obj1 = new Insert();
-    Delete obj2 = new Delete();
-    Update obj3 = new Update();
-    Read obj4 = new Read();
+   Main obj1 = new Main();
+    //Delete obj2 = new Delete();
+    //Update obj3 = new Update();
+    //Read obj4 = new Read();
 
     switch (ch) {
         case 1:
@@ -30,13 +30,13 @@ do {
             obj1.insertRecord();
             break;
         case 2:
-            obj2.deleteRecord();
+            obj1.deleteRecord();
             break;
         case 3:
-            obj3.updateRecord();
+            obj1.updateRecord();
             break;
         case 4:
-            obj4.readRecords();
+            obj1.readRecords();
             break;
 
         //default:
